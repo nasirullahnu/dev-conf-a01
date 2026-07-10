@@ -262,10 +262,11 @@ footer small {
 /* Bonus section using ai  */
 /* FAQ Section Styles */
 .faq-section {
-    background-color: #f8fafc;
+    background-color: #eff1f3;
     /* লাইট ব্যাকগ্রাউন্ড যা ডার্ক ফুটারের সাথে সুন্দর ম্যাচ করবে */
     padding: 80px 20px;
     font-family: sans-serif;
+    margin-top: 50px;
 }
 
 .faq-container {
