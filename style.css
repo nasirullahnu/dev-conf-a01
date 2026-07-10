@@ -10,6 +10,8 @@ body a{
 }
 
 
+
+
 /* all repeated css styles here  *//* all repeated css styles here  *//* all repeated css styles here  */
 .common-button{
     background-color: #1D4ED8;
@@ -22,13 +24,13 @@ body a{
 }
 
 
+
 /* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles */
 .navigation-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 100px;
-    background-color: beige;
 }
 
 .navigation-bar ul{
@@ -87,4 +89,54 @@ body a{
     width: 200px;
     height: 50px;
     font-size: 19px;
+}
+
+
+
+
+/* meet the speaker section all styles here  *//* meet the speaker section all styles here  */
+.speaker-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    max-width: 1400px;
+    margin: 80px auto;
+}
+
+.speaker-section .speaker-section-heading{
+    font-size: 35px;
+}
+
+.speaker-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.speaker-card{
+    border-radius: 15px;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.speaker-card img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.speaker-card-info{
+    padding: 15px;
+}
+
+.speaker-name{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.speaker-exparties{
+    font-size: 13px;
+    color: blue;
+}
+
+.spekaer-designation{
+    font-size: 13px;
 }
