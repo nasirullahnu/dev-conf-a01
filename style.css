@@ -140,3 +140,70 @@ body a{
 .spekaer-designation{
     font-size: 13px;
 }
+
+
+
+/* secure your spot section css *//* secure your spot section css *//* secure your spot section css */
+.secure-spot-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secure-spot-heading{
+    text-align: center;
+}
+
+.secure-spot-heading h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.price-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.card h1{
+    font-size: 60px;
+}
+
+.card ul{
+    list-style-position: inside;
+}
+
+.card ul li{
+    margin-top: 10px;
+}
+
+.price-card-button button{
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+/* css for focus the middle card seperately *//* css for focus the middle card seperately */
+.card.featured {
+  background-color: #0D1B2A;
+  color: white;
+}
+
+.card.featured .price-card-button button{
+    background-color: #1D4ED8;
+    color: white;
+}
