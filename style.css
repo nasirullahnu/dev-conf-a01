@@ -1,4 +1,4 @@
-/* universal css section  */
+/* universal css section  *//* universal css section  *//* universal css section  */
 *{
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@ body a{
 }
 
 
-/* all repeated css styles here  */
+/* all repeated css styles here  *//* all repeated css styles here  *//* all repeated css styles here  */
 .common-button{
     background-color: #1D4ED8;
     color: white;
@@ -22,7 +22,7 @@ body a{
 }
 
 
-/* Navigation Bar Styles */
+/* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles */
 .navigation-bar{
     display: flex;
     flex-direction: row;
@@ -45,17 +45,38 @@ body a{
 }
 
 
+
+
+/* heor section css  *//* heor section css  *//* heor section css  *//* heor section css  */
 .hero-section{
-    min-height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0, 1)), url("./assets/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.hero-button{
+.hero-section-top-content{
+    max-width: 700px;
     margin-top: 200px;
+    color: white;
+}
+
+.hero-section h1{
+    font-size: 70px;
+}
+
+.hero-section p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.hero-button{
+    margin-top: 250px;
 }
 
 .hero-button button{
