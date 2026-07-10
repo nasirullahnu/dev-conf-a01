@@ -1,19 +1,24 @@
-/* universal css section  *//* universal css section  *//* universal css section  */
-*{
+/* universal css section  */
+/* universal css section  */
+/* universal css section  */
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
 }
-body a{
+
+body a {
     text-decoration: none;
 }
 
 
 
 
-/* all repeated css styles here  *//* all repeated css styles here  *//* all repeated css styles here  */
-.common-button{
+/* all repeated css styles here  */
+/* all repeated css styles here  */
+/* all repeated css styles here  */
+.common-button {
     background-color: #1D4ED8;
     color: white;
     border-radius: 10px;
@@ -25,15 +30,18 @@ body a{
 
 
 
-/* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles *//* Navigation Bar Styles */
-.navigation-bar{
+/* Navigation Bar Styles */
+/* Navigation Bar Styles */
+/* Navigation Bar Styles */
+/* Navigation Bar Styles */
+.navigation-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 100px;
 }
 
-.navigation-bar ul{
+.navigation-bar ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -41,7 +49,7 @@ body a{
     gap: 20px;
 }
 
-.navigation-bar ul li a{
+.navigation-bar ul li a {
     text-decoration: none;
     font-size: 18px;
 }
@@ -49,9 +57,12 @@ body a{
 
 
 
-/* heor section css  *//* heor section css  *//* heor section css  *//* heor section css  */
-.hero-section{
-    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0, 1)), url("./assets/images/banner.jpg");
+/* heor section css  */
+/* heor section css  */
+/* heor section css  */
+/* heor section css  */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url("./assets/images/banner.jpg");
     background-size: cover;
     background-position: center;
     min-height: 90vh;
@@ -62,26 +73,26 @@ body a{
     text-align: center;
 }
 
-.hero-section-top-content{
+.hero-section-top-content {
     max-width: 700px;
     margin-top: 200px;
     color: white;
 }
 
-.hero-section h1{
+.hero-section h1 {
     font-size: 70px;
 }
 
-.hero-section p{
+.hero-section p {
     font-size: 20px;
     margin-top: 15px;
 }
 
-.hero-button{
+.hero-button {
     margin-top: 250px;
 }
 
-.hero-button button{
+.hero-button button {
     background-color: #1D4ED8;
     color: white;
     border: none;
@@ -94,8 +105,9 @@ body a{
 
 
 
-/* meet the speaker section all styles here  *//* meet the speaker section all styles here  */
-.speaker-section{
+/* meet the speaker section all styles here  */
+/* meet the speaker section all styles here  */
+.speaker-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,88 +116,89 @@ body a{
     margin: 80px auto;
 }
 
-.speaker-section .speaker-section-heading{
+.speaker-section .speaker-section-heading {
     font-size: 35px;
 }
 
-.speaker-card-container{
+.speaker-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
 
-.speaker-card{
+.speaker-card {
     border-radius: 15px;
     border: 1px solid rgb(236, 236, 236);
 }
 
-.speaker-card img{
+.speaker-card img {
     border-radius: 15px 15px 0px 0px;
 }
 
-.speaker-card-info{
+.speaker-card-info {
     padding: 15px;
 }
 
-.speaker-name{
+.speaker-name {
     font-size: 18px;
     margin: 5px 0px;
 }
 
-.speaker-exparties{
+.speaker-exparties {
     font-size: 13px;
     color: blue;
 }
 
-.spekaer-designation{
+.spekaer-designation {
     font-size: 13px;
 }
 
 
 
+
 /* secure your spot section css *//* secure your spot section css *//* secure your spot section css */
-.secure-spot-section{
+.secure-spot-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.secure-spot-heading{
+.secure-spot-heading {
     text-align: center;
 }
 
-.secure-spot-heading h1{
+.secure-spot-heading h1 {
     font-size: 50px;
     margin-bottom: 15px;
 }
 
-.price-card-parent{
+.price-card-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
     gap: 15px;
 }
 
-.card{
+.card {
     border: 1px solid black;
     padding: 25px;
     border-radius: 10px;
     width: 350px;
 }
 
-.card h1{
+.card h1 {
     font-size: 60px;
 }
 
-.card ul{
+.card ul {
     list-style-position: inside;
 }
 
-.card ul li{
+.card ul li {
     margin-top: 10px;
 }
 
-.price-card-button button{
+.price-card-button button {
     border: 1px solid #1D4ED8;
     color: #1D4ED8;
     width: 100%;
@@ -194,16 +207,35 @@ body a{
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-/* css for focus the middle card seperately *//* css for focus the middle card seperately */
+/* css for focus the middle card seperately */
+/* css for focus the middle card seperately */
 .card.featured {
-  background-color: #0D1B2A;
-  color: white;
+    background-color: #0D1B2A;
+    color: white;
 }
 
-.card.featured .price-card-button button{
+.card.featured .price-card-button button {
     background-color: #1D4ED8;
     color: white;
+}
+
+
+/* footer section */
+
+footer{
+    margin-top: 50px;
+    background-color: #0D1B2A;
+    height: 100px;
+    padding: 20px 120px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer small{
+    opacity: 40%;
 }
