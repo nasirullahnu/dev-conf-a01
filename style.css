@@ -100,6 +100,7 @@ body a {
     width: 200px;
     height: 50px;
     font-size: 19px;
+    cursor: pointer;
 }
 
 
@@ -156,7 +157,9 @@ body a {
 
 
 
-/* secure your spot section css *//* secure your spot section css *//* secure your spot section css */
+/* secure your spot section css */
+/* secure your spot section css */
+/* secure your spot section css */
 .secure-spot-section {
     display: flex;
     flex-direction: column;
@@ -223,24 +226,30 @@ body a {
 }
 
 
-
-
-/* footer section */
-/* footer section */
 /* footer section */
 
-footer{
+footer {
     margin-top: 50px;
     background-color: #0D1B2A;
-    height: 100px;
-    padding: 20px 120px;
+    height: 200px;
+    padding: 50px 120px;
     color: white;
+}
+
+footer .footer-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer small{
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer small {
     opacity: 40%;
 }
 
@@ -248,112 +257,119 @@ footer small{
 
 
 
-
-
-/* Bonus section using ai  *//* Bonus section using ai  *//* Bonus section using ai  */
+/* Bonus section using ai  */
+/* Bonus section using ai  */
+/* Bonus section using ai  */
 /* FAQ Section Styles */
 .faq-section {
-  background-color: #f8fafc; /* লাইট ব্যাকগ্রাউন্ড যা ডার্ক ফুটারের সাথে সুন্দর ম্যাচ করবে */
-  padding: 80px 20px;
-  font-family: sans-serif;
+    background-color: #f8fafc;
+    /* লাইট ব্যাকগ্রাউন্ড যা ডার্ক ফুটারের সাথে সুন্দর ম্যাচ করবে */
+    padding: 80px 20px;
+    font-family: sans-serif;
 }
 
 .faq-container {
-  max-width: 1100px;
-  margin: 0 auto;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .faq-title {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #0b192c; /* আপনার প্রোরিসিং কার্ডের ডার্ক থিমের সাথে মিল রেখে */
-  margin-bottom: 10px;
-  position: relative;
-  padding-bottom: 15px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0b192c;
+    /* আপনার প্রোরিসিং কার্ডের ডার্ক থিমের সাথে মিল রেখে */
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 15px;
 }
 
 /* Pseudo-element: টাইটেলের নিচে একটি স্টাইলিশ ব্লু ডেকোরেটিভ বার */
 .faq-title::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background-color: #2563eb; /* আপনার বাটনগুলোর মেইন ব্লু কালার */
-  border-radius: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #2563eb;
+    /* আপনার বাটনগুলোর মেইন ব্লু কালার */
+    border-radius: 2px;
 }
 
 .faq-subtitle {
-  text-align: center;
-  color: #64748b;
-  margin-bottom: 50px;
-  font-size: 1.1rem;
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
 }
 
 /* CSS Grid layout for 2-column look */
 .faq-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 30px;
 }
 
 /* Individual FAQ Card */
 .faq-item {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 /* Pseudo-element: হোভার করলে কার্ডের বাম পাশে একটি ব্লু বর্ডার এফেক্ট আসবে */
 .faq-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background-color: #2563eb;
-  transform: scaleY(0); /* শুরুতে এটি হাইড থাকবে */
-  transition: transform 0.3s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #2563eb;
+    transform: scaleY(0);
+    /* শুরুতে এটি হাইড থাকবে */
+    transition: transform 0.3s ease;
 }
 
 /* Hover Effects */
 .faq-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  border-color: #cbd5e1;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e1;
 }
 
 .faq-item:hover::after {
-  transform: scaleY(1); /* হোভার করলে সুডো-এলিমেন্টটি স্লাইড হয়ে দৃশ্যমান হবে */
+    transform: scaleY(1);
+    /* হোভার করলে সুডো-এলিমেন্টটি স্লাইড হয়ে দৃশ্যমান হবে */
 }
 
 .faq-question {
-  font-size: 1.2rem;
-  color: #0b192c;
-  margin-top: 0;
-  margin-bottom: 12px;
+    font-size: 1.2rem;
+    color: #0b192c;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 .faq-answer {
-  color: #475569;
-  line-height: 1.6;
-  margin-bottom: 0;
-  font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 0.95rem;
 }
 
 /* Responsive Design for smaller screens */
 @media (max-width: 768px) {
-  .faq-grid {
-    grid-template-columns: 1fr;
-  }
-  .faq-title {
-    font-size: 1.8rem;
-  }
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-title {
+        font-size: 1.8rem;
+    }
+
 }
