@@ -1,8 +1,12 @@
+/* universal css section  */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
+}
+body a{
+    text-decoration: none;
 }
 
 
@@ -18,13 +22,12 @@
 }
 
 
-
 /* Navigation Bar Styles */
 .navigation-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 100px;
+    padding: 20px 100px;
     background-color: beige;
 }
 
@@ -38,4 +41,29 @@
 
 .navigation-bar ul li a{
     text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero-section{
+    min-height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-button{
+    margin-top: 200px;
+}
+
+.hero-button button{
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 19px;
 }
