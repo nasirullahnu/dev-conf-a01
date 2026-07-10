@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+
+/* all repeated css styles here  */
+.common-button{
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/* Navigation Bar Styles */
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: beige;
+}
+
+.navigation-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+}
